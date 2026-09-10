@@ -26,16 +26,22 @@ public class Main {
 
         int[] notas = {9, 6, 0, -1, -6};
 
-            for(int alunos : notas){
-                if(alunos < 0)
-                    System.out.println("O valor de:" + alunos  + "eh Negativo");
-                if(alunos == 0)
-                    System.out.println("O valor de:" + alunos + "eh Zero");
-                if(alunos > 0)
-                    System.out.println("O valor de:" + alunos + "eh Positivo");
-             }
-            
-        
-    }
+        //  for(int alunos : notas){
+        //     if(alunos < 0)
+        //         System.out.println("O valor de:" + alunos  + "eh Negativo");
+        //     if(alunos == 0)
+        //         System.out.println("O valor de:" + alunos + "eh Zero");
+        //     if(alunos > 0)
+        //         System.out.println("O valor de:" + alunos + "eh Positivo");
+        // }
 
+        for(int i = 0; i<=notas.length; i++){
+            if(notas[i] < 0)
+                System.out.println("O valor de:" + notas  + "eh Negativo");
+            if(notas[i] == 0)
+                System.out.println("O valor de:" + notas + "eh Zero");
+            if(notas[i] > 0)
+                System.out.println("O valor de:" + notas + "eh Positivo");
+        }
+    }
 }
